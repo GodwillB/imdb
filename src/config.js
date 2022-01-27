@@ -6,7 +6,7 @@ const API_KEY = process.env.REACT_APP_API_KEY;
 
 const SEARCH_BASE_URL = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query=`;
 const POPULAR_BASE_URL = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US`;
-// For login and voting
+// For login and cast voting
 const REQUEST_TOKEN_URL = `${API_URL}authentication/token/new?api_key=${API_KEY}`;
 const LOGIN_URL = `${API_URL}authentication/token/validate_with_login?api_key=${API_KEY}`;
 const SESSION_ID_URL = `${API_URL}authentication/session/new?api_key=${API_KEY}`;
